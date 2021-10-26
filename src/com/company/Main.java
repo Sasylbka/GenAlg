@@ -26,10 +26,12 @@ class GenericAlgorithm{
         }
     }
     void PopulationCreation(){
-        PhenotypeCreation();
         int first_part;
         int second_part;
-        
+        PhenotypeCreation();
+        while(population.size()!=10){
+
+        }
     }
     static Double FitnessFunction(List<String> population){
         int min_value=Integer.MAX_VALUE;
